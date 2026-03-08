@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>    
+  <Wheels>
+    <Item> <!-- VWT_SPORT -->
+      <Item>
+        <wheelName>wheel_hiend_01</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim1</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+      <Item>
+        <wheelName>wheel_hiend_02</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim2</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_03</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim3</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_03w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim4</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_04</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim5</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_04w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim6</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_05</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim7</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_05w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim8</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_06</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim9</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_06w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim10</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_07</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim11</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_07w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim12</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_08</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim13</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_08w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim14</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_09</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim15</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_09w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim16</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_10</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim17</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_10w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim18</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_11</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim19</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_11w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim20</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_12</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim21</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_12w</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim22</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_13</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim23</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	
+      <Item>
+        <wheelName>wheel_hiend_14</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim24</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+      <Item>
+        <wheelName>wheel_hiend_15</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim25</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	      
+      <Item>
+        <wheelName>wheel_hiend_16</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim26</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	      
+      <Item>
+        <wheelName>wheel_hiend_17</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim27</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	      
+      <Item>
+        <wheelName>wheel_hiend_18</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim28</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	      
+      <Item>
+        <wheelName>wheel_hiend_19</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim29</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	      
+      <Item>
+        <wheelName>wheel_hiend_20</wheelName>
+        <wheelVariation />
+        <modShopLabel>rim30</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>	      
+    </Item>
+    <Item/> <!-- VWT_MUSCLE -->
+    <Item/> <!-- VWT_LOWRIDER -->
+    <Item/> <!-- VWT_SUV -->
+    <Item/> <!-- VWT_OFFROAD -->
+    <Item/> <!-- VWT_TUNER -->
+    <Item/> <!-- VWT_BIKE -->
+    <Item/> <!-- VWT_HIEND -->
+    <Item/>
+  </Wheels>
+</CVehicleModelInfoVarGlobal>
