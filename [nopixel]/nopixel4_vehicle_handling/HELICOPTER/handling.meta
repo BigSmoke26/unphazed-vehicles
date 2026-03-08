@@ -1054,55 +1054,7 @@
 					<fEngineOffGlideMulti value="1.000000" />
 					<handlingType>HANDLING_TYPE_FLYING</handlingType>
 				</Item>
-				<Item type="CVehicleWeaponHandlingData">
-					<uWeaponHash>
-						<Item>VEHICLE_WEAPON_HAVOK_MINIGUN</Item>
-						<Item />
-						<Item />
-						<Item />
-					</uWeaponHash>
-					<WeaponVehicleModType>
-						<Item>VMT_ROOF</Item>
-						<Item />
-						<Item />
-						<Item />
-					</WeaponVehicleModType>
-					<WeaponSeats content="int_array">0
-						0
-						0
-						0</WeaponSeats>
-					<fTurretSpeed content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fTurretSpeed>
-					<fTurretPitchMin content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fTurretPitchMin>
-					<fTurretPitchMax content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fTurretPitchMax>
-					<fTurretCamPitchMin content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fTurretCamPitchMin>
-					<fTurretCamPitchMax content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fTurretCamPitchMax>
-					<fBulletVelocityForGravity content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fBulletVelocityForGravity>
-					<fTurretPitchForwardMin content="float_array">0.000000
-						0.000000
-						0.000000
-						0.000000</fTurretPitchForwardMin>
-					<fUvAnimationMult value="0.000000" />
-					<fMiscGadgetVar value="0.000000" />
-					<fWheelImpactOffset value="0.000000" />
-				</Item>
+
 				<Item type="NULL" />
 			</SubHandlingData>
 		</Item>
@@ -1195,11 +1147,11 @@
 				</Item>
 				<Item type="CVehicleWeaponHandlingData">
 					<uWeaponHash>
-						<Item>VEHICLE_WEAPON_HUNTER_MG</Item>
-						<Item>VEHICLE_WEAPON_HUNTER_MISSILE</Item>
-						<Item>VEHICLE_WEAPON_HUNTER_CANNON</Item>
+						<Item>''</Item>
+						<Item>''</Item>
+						<Item>''</Item>
 						<Item />
-						<Item>VEHICLE_WEAPON_HUNTER_BARRAGE</Item>
+						<Item>''</Item>
 						<Item />
 					</uWeaponHash>
 					<WeaponSeats content="int_array">1
