@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <!-- ONX EMS Pack Start -->
+    <!-- Aircraft & Misc Start -->
+    <!-- Gurney (0001-NX) -->
+    <Item>
+      <modelName>onx_gurney</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            88
+            0
+            0
+            88
+            0
+            0
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5501_onx_gurney_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+    <!-- Aircraft & Misc End -->
+    <!-- Type 1 Ambulances (Truck Box) Start -->
+    <!-- Bison 45XD Type 1 (0010-NX) -->
+    <Item>
+      <modelName>onx_ambbison</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            0
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5510_onx_ambbison_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5500" />
+    </Item>
+    <!-- Sandking Type 1 (0011-NX) -->
+    <Item>
+      <modelName>onx_ambking</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            0
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5511_onx_ambking_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5500" />
+    </Item>
+    <!-- Yankee C105 Type 1 (0012-NX) -->
+    <Item>
+      <modelName>onx_ambkee</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            0
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5512_onx_ambkee_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5502" />
+    </Item>
+    <!-- Yankee C130 Type 1 (0013-NX) -->
+    <Item>
+      <modelName>onx_ambkee2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            0
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5513_onx_ambkee2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5500" />
+    </Item>
+    <!-- Type 1 Ambulances (Truck Box) End -->
+    <!-- Type 2 Ambulances (Van) Start -->
+    <!-- Jogger Type 2 (0020-NX) -->
+    <Item>
+      <modelName>onx_ambjog2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            156
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5520_onx_ambjog2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5501" />
+    </Item>
+    <!-- Jogger Type 2 (0021-NX) -->
+    <Item>
+      <modelName>onx_ambjog3</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            156
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5521_onx_ambjog3_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5501" />
+    </Item>
+    <!-- Type 2 Ambulances (Van) End -->
+    <!-- Type 3 Ambulances (Van Box) Start -->
+    <!-- Jogger Type 3 (0030-NX) -->
+    <Item>
+      <modelName>onx_ambjog</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            88
+            0
+            0
+            111
+            111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>5530_onx_ambjog_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="5500" />
+    </Item>
+    <!-- Type 3 Ambulances (Van Box) End -->
+    <!-- Pickups Start -->
+    <!-- Pickups End -->
+    <!-- Motorcycles Start -->
+    <!-- Motorcycles End -->
+    <!-- Type 1 Ambulances (Truck Box) 2 Start -->
+    <!-- Type 1 Ambulances (Truck Box) 2 End -->
+    <!-- Type 2 Ambulances (Van) 2 Start -->
+    <!-- Type 2 Ambulances (Van) 2 End -->
+    <!-- Type 3 Ambulances (Van Box) 2 Start -->
+    <!-- Type 3 Ambulances (Van Box) 2 End -->
+    <!-- Pickups 2 Start -->
+    <!-- Pickups 2 End -->
+    <!-- ONX EMS Pack End -->
+    <!-- Emergency Lightbars Start -->
+    <!-- Emergency Lightbars End -->
+  </variationData>
+</CVehicleModelInfoVariation>
