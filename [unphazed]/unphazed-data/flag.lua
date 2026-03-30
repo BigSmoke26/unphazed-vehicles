@@ -1,15 +1,14 @@
-local OR, XOR, AND = 1, 3, 4
+local OR, AND = 1, 4
 
-local function bitOper(flag, checkFor, oper)
-    local result, mask, sum = 0, 2 ^ 31
-    repeat
-        sum, flag, checkFor = flag + checkFor + mask, flag % mask, checkFor % mask
-        result, mask = result + mask * oper % (sum - flag - checkFor), mask / 2
-    until mask < 1
-    return result
-end
+local HANDLING_FLAGS = {
+    256, -- HF_FREEWHEEL_NO_GAS
+}
 
-local lowriders = {
+local ADVANCED_FLAGS = {
+    134217728, -- CF_USE_DOWNFORCE_BIAS
+}
+
+local LOWRIDERS = {
     voodoo = true,
     chino2 = true,
     faction2 = true,
@@ -26,32 +25,51 @@ local lowriders = {
     virgo2 = true,
 }
 
+local function bitOper(flag, checkFor, oper)
+    local result, mask, sum = 0, 2 ^ 31
+
+    repeat
+        sum, flag, checkFor = flag + checkFor + mask, flag % mask, checkFor % mask
+        result, mask = result + mask * oper % (sum - flag - checkFor), mask / 2
+    until mask < 1
+
+    return result
+end
+
 local function isLowrider(vehicle)
     local model = GetEntityModel(vehicle)
     local modelName = GetDisplayNameFromVehicleModel(model):lower()
 
-    if lowriders[modelName] then
+    if LOWRIDERS[modelName] then
         return true
     end
 
-    if GetVehicleModKitType(vehicle) == 1 then
-        return true
-    end
-
-    return false
+    return GetVehicleModKitType(vehicle) == 1
 end
 
-local function addDownforceFlag(vehicle)
-    if isLowrider(vehicle) then
-        return
+local function applyFlags(vehicle, handlingClass, fieldName, flagsToApply)
+    local flags = GetVehicleHandlingInt(vehicle, handlingClass, fieldName)
+    local changed = false
+
+    for i = 1, #flagsToApply do
+        local flagValue = flagsToApply[i]
+
+        if bitOper(flags, flagValue, AND) ~= flagValue then
+            flags = bitOper(flags, flagValue, OR)
+            changed = true
+        end
     end
 
-    local adv_flags = GetVehicleHandlingInt(vehicle, 'CCarHandlingData', 'strAdvancedFlags')
-    local hasDownforceFlag = bitOper(adv_flags, 134217728, AND) == 134217728
+    if changed then
+        SetVehicleHandlingField(vehicle, handlingClass, fieldName, math.floor(flags))
+    end
+end
 
-    if not hasDownforceFlag then
-        adv_flags = bitOper(adv_flags, 134217728, OR)
-        SetVehicleHandlingField(vehicle, 'CCarHandlingData', 'strAdvancedFlags', math.floor(adv_flags))
+local function applyVehicleFlags(vehicle)
+    applyFlags(vehicle, 'CHandlingData', 'strHandlingFlags', HANDLING_FLAGS)
+
+    if not isLowrider(vehicle) then
+        applyFlags(vehicle, 'CCarHandlingData', 'strAdvancedFlags', ADVANCED_FLAGS)
     end
 end
 
@@ -62,14 +80,14 @@ CreateThread(function()
         Wait(500)
 
         local ped = PlayerPedId()
-        local veh = GetVehiclePedIsIn(ped, false)
+        local vehicle = GetVehiclePedIsIn(ped, false)
 
-        if veh ~= 0 and veh ~= lastVehicle then
-            if GetPedInVehicleSeat(veh, -1) == ped then
-                lastVehicle = veh
-                addDownforceFlag(veh)
+        if vehicle ~= 0 and vehicle ~= lastVehicle then
+            if GetPedInVehicleSeat(vehicle, -1) == ped then
+                lastVehicle = vehicle
+                applyVehicleFlags(vehicle)
             end
-        elseif veh == 0 then
+        elseif vehicle == 0 then
             lastVehicle = nil
         end
     end
