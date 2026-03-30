@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <!-- ONX Police Pack Start -->
+    <!-- Sedans Start -->
+    <!-- Police Merit PPV (0016-NX) -->
+    <Item>
+      <modelName>onx_polmerit2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            0
+            112
+            0
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5016_onx_polmerit2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5000" />
+    </Item>
+    <!-- Bravado Buffalo STX8 -->
+    <Item>
+      <modelName>onx_polbuff2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            0
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5017_onx_polbuff2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5016" />
+    </Item>
+    <!-- Sedans End -->
+    <!-- SUVs Start -->
+    <!-- SUVs End -->
+    <!-- Pickups Start -->
+    <!-- Police Vapid Sandking D155 (0082-NX) -->
+    <Item>
+      <modelName>onx_polsandk</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5082_onx_polsandk_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Vapid Sandking D155 SWB (0083-NX) -->
+    <Item>
+      <modelName>onx_polsandk2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5083_onx_polsandk2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Vapid Sandking D155 XL (0084-NX) -->
+    <Item>
+      <modelName>onx_polsandk3</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5084_onx_polsandk3_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Vapid Sandking D155 Compensator (0085-NX) -->
+    <Item>
+      <modelName>onx_polsandk4</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5085_onx_polsandk4_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Vapid Sandking D155 SWB Compensator (0086-NX) -->
+    <Item>
+      <modelName>onx_polsandk5</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5086_onx_polsandk5_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Vapid Sandking D155 XL Compensator (0087-NX) -->
+    <Item>
+      <modelName>onx_polsandk6</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5087_onx_polsandk6_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Guardian C105 (0088-NX) -->
+    <Item>
+      <modelName>onx_polguard</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5088_onx_polguard_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Guardian C105 SWB (0088-NX) -->
+    <Item>
+      <modelName>onx_polguard2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5089_onx_polguard2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Guardian C130 (0030-NX) -->
+    <Item>
+      <modelName>onx_polguard3</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>6030_onx_polguard3_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Guardian C130 SWB (0031-NX) -->
+    <Item>
+      <modelName>onx_polguard4</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>6031_onx_polguard4_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Pickups End -->
+    <!-- Motorcyles/Super Sports Start -->
+    <!-- Motorcyles/Super Sports End -->
+    <!-- Sports/Coupes Start -->
+    <!-- Police Coquette Interceptor (0052-NX) -->
+    <Item>
+      <modelName>onx_polcoq</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            0
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5052_onx_polcoq_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="5000" />
+    </Item>
+    <!-- Police Coquette D10 Interceptor (0056-NX) -->
+    <Item>
+      <modelName>onx_polcoq2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            0
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5056_onx_polcoq2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="157" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Coquette D7 Interceptor (0057-NX) -->
+    <Item>
+      <modelName>onx_polcoq3</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            0
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5057_onx_polcoq3_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="119" />
+      <sirenSettings value="5000" />
+    </Item>
+    <!-- Sports/Coupes End -->
+    <!-- Aircraft Start -->
+    <!-- Police Maverick Helicopter (0003-NX) -->
+    <Item>
+      <modelName>onx_polmav</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            112
+            0
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5003_onx_polmav_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="18" />
+      <sirenSettings value="0" />
+    </Item>
+    <!-- Police Maverick SWAT Helicopter (0004-NX) -->
+    <Item>
+      <modelName>onx_polmav2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            112
+            0
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5004_onx_polmav2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="18" />
+      <sirenSettings value="0" />
+    </Item>
+    <!-- Police Jogger LWB (0005-NX) -->
+    <Item>
+      <modelName>onx_poljog</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5005_onx_poljog_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Jogger SWB (0006-NX) -->
+    <Item>
+      <modelName>onx_poljog2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5006_onx_poljog2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Jogger Transport LWB (0007-NX) -->
+    <Item>
+      <modelName>onx_poljog3</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5007_onx_poljog3_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Police Jogger Transport SWB (0008-NX) -->
+    <Item>
+      <modelName>onx_poljog4</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            112
+            0
+            156
+            112
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>5008_onx_poljog4_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="5001" />
+    </Item>
+    <!-- Emergency Lightbars Start -->
+    <!-- Emergency Lightbars End -->
+    <!-- ONX Police Pack End -->
+  </variationData>
+</CVehicleModelInfoVariation>
